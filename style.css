@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+}
+
+.container{
+    height: 100%;
+}
+
+.flipkart-header{
+    position: relative;
+    min-width: 978px;
+    padding-bottom: 56px;
+}
+
+.header-container{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    z-index: 10;
+
+}
+
